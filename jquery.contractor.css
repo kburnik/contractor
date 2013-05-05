@@ -1,0 +1,18 @@
+.contractor_overlay {
+	background-color:#eeeeee;
+	background-image:url('images/arrow-close.gif');
+	background-repeat:no-repeat;
+	background-position:right;
+	float:left;
+	border-right:1px dotted #777777;
+	padding-right:9px;
+}
+
+.contractor_overlay.hover {
+	background-color:#ddddff;
+	cursor:pointer;
+}
+
+.contractor_overlay.closed {
+	background-image:url('images/arrow-open.gif');
+}
